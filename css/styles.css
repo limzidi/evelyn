@@ -16,7 +16,16 @@
     width:370px
   }
 
+  .profile {
+    padding-bottom: 40px;
+  }
+
 }
+
+@media (min-width : 400px){
+  #pic-profile {
+    padding-left: 30px;
+  }}
 
 .pic-box {
 
@@ -31,10 +40,7 @@
 
  }
 
-.eve {
-width: 200px
 
-  }
 
 
 
