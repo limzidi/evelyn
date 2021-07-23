@@ -12,7 +12,8 @@
 
 @media (max-width : 400px){
   #pic-profile {
-    padding: 0px
+    padding: 0px;
+    width:370px
   }
 
 }
@@ -68,7 +69,7 @@ width: 200px
   }
 }
 
-@media (width-max:356px){
+@media (width-max:400px){
   #pic-profile{
     padding: 50px 0;
   }
