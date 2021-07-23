@@ -7,7 +7,14 @@
 }
 
 #pic-profile{
-  padding: 50px
+ padding : 15px
+}
+
+@media (max-width : 400px){
+  #pic-profile {
+    padding: 0px
+  }
+
 }
 
 .pic-box {
@@ -41,7 +48,7 @@ width: 200px
     font-weight: 300;
     line-height: 1.7;
     margin-top: 100px;
-    padding-left: 105px;
+    padding-left: 50px;
     text-align: left;
 }
 
@@ -58,6 +65,12 @@ width: 200px
 @media (max-width: 500px) {
   .smallbio {
     padding-left: 10px;
+  }
+}
+
+@media (width-max:356px){
+  #pic-profile{
+    padding: 50px 0;
   }
 }
 
