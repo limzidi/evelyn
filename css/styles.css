@@ -21,12 +21,52 @@
     padding-bottom: 40px;
   }
 
+
+
 }
 
-@media (min-width : 400px){
+@media (min-width : 600px){
   #pic-profile {
     padding-left: 30px;
-  }}
+  }
+
+  .interestbox {
+  padding:0 150px;
+  }
+
+  .accordionbox {
+    padding: 0 150px;
+  }
+
+}
+
+.accordionbox {
+  font-family: "Open Sans",arial,sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7;
+  text-align: left;
+
+}
+
+.accordionbox .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #546981;
+  padding: 0;
+  text-align: left;
+}
+
+.accordionbox .btn-link:hover,
+.accordionbox .btn-link:focus {
+  text-decoration: none;
+}
+
+.accordionbox li + li {
+  margin-top: 10px;
+}
+
+
 
 .pic-box {
 
@@ -68,6 +108,7 @@
     line-height: 1.7;
     font-size: 15px;
   }
+
 }
 
 @media (max-width: 500px) {
@@ -111,12 +152,32 @@
 
 }
 
+.interestbox {
+
+  color: #fff;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+
+
+  }
+
+
+
+
+
+.youtube {
+   margin:20px 0;
+   text-align:center
+}
+
 .pad {
   padding:10px;
 }
 
 .nav-pills .nav-link.active{
     background-color: transparent !important;
-    border-width: : 1px ;
+    border-width: 1px ;
     border-style : solid;
 }
