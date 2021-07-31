@@ -1,53 +1,70 @@
-
 $(document).ready(function () {
-  $('#pills-QUALIFICATIONS-tab').click(function() {
+  $('.fa-user-graduate').click(function() {
   $('html, body').animate({
     scrollTop: $(".achievements").offset().top
-  }, 500)
+  }, 500);
 })
+});
+
+
+
+$(document).ready(function () {
+  $('.fa-university').click(function() {
+  $('html, body').animate({
+    scrollTop: $(".accordionbox").offset().top
+  }, 500);
 })
+});
+
+
+
+$(document).ready(function () {
+  $('.fa-gratipay').click(function() {
+  $('html, body').animate({
+    scrollTop: $(".interestbox").offset().top
+  }, 500);
+})
+});
+
+$(document).ready(function () {
+  $('.fa-address-book').click(function() {
+  $('html, body').animate({
+    scrollTop: $(".contactme").offset().top
+  }, 500);
+})
+});
 
 $(document).ready(function () {
   $('.qualif').click(function() {
   $('html, body').animate({
-    scrollTop: $(".achievements").offset().top
-  }, 500)
+    scrollTop: $(".fa-user-graduate").offset().top
+  }, 500);
 })
-})
-
+});
 
 
 $(document).ready(function () {
   $('.researcher').click(function() {
   $('html, body').animate({
-    scrollTop: $("#accordion").offset().top
+    scrollTop: $(".fa-university").offset().top
   }, 500)
 })
-})
+});
+
+
 
 $(document).ready(function () {
   $('.intere').click(function() {
   $('html, body').animate({
-    scrollTop: $(".interestbox").offset().top
+    scrollTop: $(".fa-gratipay").offset().top
   }, 500)
 })
-})
+});
 
 $(document).ready(function () {
-  $('.contacts ').click(function() {
+  $('.contacts').click(function() {
   $('html, body').animate({
-    scrollTop: $(".achievements").offset().top
+    scrollTop: $(".fa-address-book").offset().top
   }, 500)
 })
-})
-
-$(document).ready(function () {
-  $('.qualif ').click(function() {
-  $('html, body').animate({
-    scrollTop: $(".achievements").offset().top
-  }, 500)
-})
-})
-
-
-alert ("under construction -lzd")
+});
